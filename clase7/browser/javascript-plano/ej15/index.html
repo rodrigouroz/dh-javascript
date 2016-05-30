@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <title>Forms - Ejemplo 15</title>
+       <link rel="stylesheet" href="../../assets/css/formularios.css">
+    </head>
+    <body>
+        <h1>Javascript y los Formularios</h1>
+        <form id="formulario-de-invitados">
+            <div>
+                <span>
+                    <label for="nombre">Nombre:</label>
+                </span>
+                <span>
+                    <input type="text" name="nombre" id="nombre">
+                </span>
+            </div>
+            <div>
+                <span>
+                    <label for="apellido">Apellido:</label>
+                </span>
+                <span>
+                    <input type="text" name="apellido" id="apellido">
+                </span>
+            </div>
+            <input type="submit" value="Crear Usuario" name="submit-form" id="submit-form">
+            <input type="button" id="limpiar-form" value="Limpiar form">
+        </form>
+        <div class="error">
+            Por favor ingres nombre y apellido!!
+        </div>
+        <div class="exito">
+            Muchas gracias por crear el usuario
+        </div>
+        <!-- Es recomendable cargar los archivos de javascript para no bloquear la descarga del documento -->
+        <script src="script.js"></script>
+    </body>
+</html>

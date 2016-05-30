@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <title>Forms - Ejemplo 16</title>
+       <link rel="stylesheet" href="../../assets/css/formularios.css">
+    </head>
+    <body>
+        <h1>Javascript y los Formularios</h1>
+        <form id="formulario-de-invitados">
+            <div>
+                <span>
+                    <label for="usuario">Usuario:</label>
+                </span>
+                <span>
+                    <input type="text" name="usuario" id="usuario">
+                </span>
+            </div>
+            <div>
+                <span>
+                    <label for="mail">Mail:</label>
+                </span>
+                <span>
+                    <input type="text" name="mail" id="mail">
+                </span>
+            </div>
+            <input type="submit" value="Ingresar" name="ingresar" id="ingresar">
+            <input type="button" id="limpiar-form" value="Limpiar form">
+        </form>
+        <div class="error">
+            Por favor ingres nombre de usuario y mail válido!!
+        </div>
+        <div class="exito">
+            Muchas gracias por ingresar a la aplicación
+        </div>
+        <!-- Es recomendable cargar los archivos de javascript para no bloquear la descarga del documento -->
+        <script src="script.js"></script>
+    </body>
+</html>

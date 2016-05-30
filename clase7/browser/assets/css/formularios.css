@@ -1,0 +1,93 @@
+body {
+    font-family: arial;
+}
+form {
+    border: 1px solid black;
+    padding: 20px;
+    background-color: #eee;
+}
+
+form div {
+    margin-bottom: 20px;
+}
+
+form div span {
+    display: block;
+}
+
+form div span:first-child {
+    margin-bottom: 10px;
+}
+
+form div span label {
+    font-weight: bold;
+}
+
+form div span input {
+    padding: 5px;
+    font-size: 16px;
+}
+
+form button, form input[type='submit'] {
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 5px;
+    border-color: rgba(164,179,87,1);
+    border-style: solid;
+    background: rgba(164,179,87,1);
+}
+
+form input[type='checkbox'] {
+    width: 20px;
+    height: 20px;
+    margin:0;
+    padding:0;
+}
+
+form input[type='button'] {
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 5px;
+    border-color: rgba(248,80,50,1);
+    border-style: solid;
+    background: rgba(248,80,50,1);
+}
+
+form select {
+    font-size: 16px;
+    width: 200px;
+    height: 40px;
+}
+
+form textarea {
+    width: 400px;
+    height: 150px;
+    padding: 5px;
+    font-size: 16px;
+}
+
+#contenedor-perfil {
+    position: fixed;
+    right: 20px;
+    top: 100px;
+}
+
+.error {
+    background-color: #fe3f70;
+    padding: 20px;
+    color: #aa002c;
+    border: 2px solid #aa002c;
+    margin-top: 20px;
+    display: none;
+}
+
+.exito {
+    background-color: #baffa2;
+    padding: 20px;
+    border: 2px solid #18780e;
+    color: #18780e;
+    margin-top: 20px;
+    display: none;
+}

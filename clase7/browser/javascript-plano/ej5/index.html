@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <title>Forms - Ejemplo 5</title>
+       <link rel="stylesheet" href="../../assets/css/formularios.css">
+    </head>
+    <body>
+        <h1>Javascript y los Formularios</h1>
+        <form id="formulario-de-invitados">
+            <div>
+                <span>
+                    <label for="nombre">Nombre:</label>
+                </span>
+                <span>
+                    <input type="text" name="nombre" id="nombre">
+                </span>
+            </div>
+            <div>
+                <span>
+                    <label for="apellido">Apellido:</label>
+                </span>
+                <span>
+                    <input type="text" name="apellido" id="apellido">
+                </span>
+            </div>
+
+            <div>
+                <span>
+                    <label for="password">Password:</label>
+                </span>
+                <span>
+                    <input type="password" name="password" id="password">
+                </span>
+            </div>
+
+            <div>
+                <span>
+                    <label for="estado-civil">Estado Civil:</label>
+                </span>
+                <span>
+                    <span>Soltero <input type="radio" name="estado-civil" value="soltero" checked></span>
+                    <span>Casado <input type="radio" name="estado-civil" value="casado"></span>
+                </span>
+            </div>
+
+            <div>
+                <span>
+                    <label for="profesion">Profesión:</label>
+                </span>
+                <span>
+                    <select name="profesion" id="profesion">
+                        <option value="programador">Programador</option>
+                        <option value="arquitecto">Arquitecto</option>
+                        <option value="diseñador">Diseñador</option>
+                    </select>
+                </span>
+            </div>
+
+            <div>
+                <span>
+                    <label for="recibir-novedades">Desea recibir novedades?</label>
+                    <input type="checkbox" name="recibir-novedades" id="recibir-novedades">
+                </span>
+            </div>
+
+            <div>
+                <input type="hidden" value="valor oculto al usuario">
+            </div>
+
+            <input type="submit" value="Crear Usuario" name="submit-form">
+            <input type="button" id="limpiar-form" value="Limpiar form">
+        </form>
+
+        <ol></ol>
+        <!-- Es recomendable cargar los archivos de javascript para no bloquear la descarga del documento -->
+        <script src="script.js"></script>
+    </body>
+</html>

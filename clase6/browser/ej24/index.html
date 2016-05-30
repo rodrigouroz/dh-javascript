@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <title>DOM - Ejemplo 24</title>
+      <link rel="stylesheet" href="/clase6/browser/assets/css/reveal.css">
+      <style type="text/css">
+          body { font-family: "HelveticaNeue","Helvetica-Neue", "Helvetica", "Arial", sans-serif; }
+          .link-modal { display:block; margin-top: 100px; text-align: center; font-size: 70px; color: #06f; }
+      </style>
+    </head>
+
+    <body>
+        <a href="#" id="normal" class="link-modal">Ver Modal</a>
+        <a href="#" id="con-propiedades" class="link-modal">Ver Modal con propiedades</a>
+
+        <!--
+            Reveal nos permite configurar el tamaño del modal usando clases:
+
+            .small:
+                { width: 200px; margin-left: -140px;}
+            .medium
+                { width: 400px; margin-left: -240px;}
+            .large
+                { width: 600px; margin-left: -340px;}
+            .xlarge
+                { width: 800px; margin-left: -440px;}
+        -->
+        <div id="nuevo-modal" class="reveal-modal xlarge">
+            <h1>Alto modal con jQuery</h1>
+            <img src="/clase6/browser/assets/img/rock.jpg">
+            <p>Los plugins de jQuery nos permiten agregar funcionalidad de forma muy fácil.</p>
+            <a class="close-reveal-modal">&#215;</a>
+        </div>
+
+        <!-- Es recomendable cargar los archivos de javascript para no bloquear la descarga del documento -->
+        <script src="/clase6/browser/assets/js/jquery-1.6.min.js"></script>
+        <script src="/clase6/browser/assets/js/jquery.reveal.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
