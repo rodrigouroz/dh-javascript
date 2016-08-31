@@ -13,7 +13,7 @@
 // Esperamos que esté cargada la página.
 window.onload = function() {
 
-    var elementoH1 = document.querySelectorAll('h1')[0];
+    var elementoH1 = document.querySelectorAll('h1');
     console.log(elementoH1);
 
     var titulo = document.querySelectorAll('#titulo').item(0);

@@ -13,6 +13,7 @@ window.onload = function() {
 
     var titulo = document.querySelectorAll('#titulo').item(0);
     console.log(titulo.getAttribute('id'));
+    console.log(titulo.getAttribute('name'));
 
     var foto = document.querySelectorAll('.foto').item(0);
     console.log(foto.getAttribute('class'));

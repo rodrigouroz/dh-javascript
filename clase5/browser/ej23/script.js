@@ -8,5 +8,6 @@ window.onload = function() {
 
     boton.addEventListener('click', function() {
         alert('Ahhhhh tengo un evento asociado!!!');
+        this.textContent = 'Me clickearon';
     });
 }

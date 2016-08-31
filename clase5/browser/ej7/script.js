@@ -16,9 +16,9 @@ window.onload = function() {
     var textoEnNegrita = document.getElementsByClassName('negrita').item(0);
     console.log(textoEnNegrita);
 
-    var textoEnRojo = document.getElementsByTagName('rojo');
+    var textoEnRojo = document.getElementsByClassName('rojo');
 
-    if (textoEnRojo) {
+    if (textoEnRojo.length == 0) {
         console.log('no hay texto rojo en este documento');
     }
 }

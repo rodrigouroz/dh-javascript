@@ -3,12 +3,12 @@
 // Comentario Simple
 
 /*
-    Comentario
-    de multiples
-    lineas
+  Comentario
+  de multiples
+  lineas
 */
 
 /*
-    Ejecutamos este script desde la consola corriendo el siguiente comando:
-        node ej0.js
+  Ejecutamos este script desde la consola corriendo el siguiente comando:
+  node ej0.js
 */

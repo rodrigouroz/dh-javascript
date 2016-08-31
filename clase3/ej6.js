@@ -19,4 +19,4 @@ function sumar() {
 }
 
 
-console.log(sumar(10, 20, 30, 40));
+console.log(sumar('hola ', 'como ', 'andan ', 'hoy'));

@@ -67,13 +67,13 @@
 */
 
 // registramos un evento usando la propiedad de un objeto
-window.onload = function() {
-    console.log('Se Terminó de cargar todo el documento');
-}
+window.addEventListener('load', function(){
+    console.log('Este es el primero');
+});
 
 // registramos un evento usando el método addEventListener
 window.addEventListener('load', function(){
-    console.log('Este evento se registró utilizando addEventListener');
+    console.log('Este es el segundo');
 });
 
 // Podemos ver que ambos manejadores están escuchando el evento y ejecutan el codigo asociado

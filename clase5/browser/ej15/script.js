@@ -9,10 +9,13 @@
 // Esperamos que esté cargada la página.
 window.onload = function() {
 
+  window.setTimeout(function () {
     var elementoH1 = document.querySelectorAll('h1')[0];
     elementoH1.removeAttribute('class');
 
     var elementoP = document.querySelectorAll('p').item(0);
     elementoP.removeAttribute('class');
+
+  }, 4000);
 
 }

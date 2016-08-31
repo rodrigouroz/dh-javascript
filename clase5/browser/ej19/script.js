@@ -23,21 +23,23 @@
 // Esperamos que esté cargada la página.
 window.onload = function() {
 
-    // buscamos el elemento h1
-    var titulo = document.querySelector('h1');
+    window.setTimeout(function () {
+      // buscamos el elemento h1
+      var titulo = document.querySelector('h1');
 
-    // por medio de innerText podemos modificar el nodo de texto que contiene
-    titulo.innerText = 'Yo soy programador y me gusta!!';
+      // por medio de innerText podemos modificar el nodo de texto que contiene
+      titulo.innerText = 'Yo soy programador y me gusta!!';
 
-    // buscamos el elemento que tiene el ID contenedor
-    var contenedor = document.getElementById('contenedor');
+      // buscamos el elemento que tiene el ID contenedor
+      var contenedor = document.getElementById('contenedor');
 
-    // creamos un nuevo elemento h1
-    var nuevoTitulo = document.createElement('h1');
+      // creamos un nuevo elemento h1
+      var nuevoTitulo = document.createElement('h1');
 
-    // por medio del método innerHTML podemos modificar el contenido con formato HTML
-    nuevoTitulo.innerHTML = '<p>Este nuevo parrafo lo creamos de forma dinámica</p>';
+      // por medio del método innerHTML podemos modificar el contenido con formato HTML
+      nuevoTitulo.innerHTML = '<img src="../assets/img/fiesta.jpg">';
 
-    // asignamos el nuevo titulo al contenedor
-    contenedor.appendChild(nuevoTitulo);
+      // asignamos el nuevo titulo al contenedor
+      contenedor.appendChild(nuevoTitulo);
+    }, 5000)
 }

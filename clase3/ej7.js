@@ -13,16 +13,16 @@
         }
 */
 
+function sumar(numero1, numero2) {
+    return numero1 + numero2;
+}
+
+function restar(numero1, numero2) {
+    return numero1 - numero2;
+}
+
 function hacerCalculos(operador, valor1, valor2) {
     var resultado;
-
-    function sumar(numero1, numero2) {
-        return numero1 + numero2;
-    }
-
-    function restar(numero1, numero2) {
-        return numero1 - numero2;
-    }
 
     switch (operador) {
         case '+':
@@ -43,13 +43,13 @@ console.log(hacerCalculos('-', 30, 10));
 console.log(hacerCalculos('/', 30, 3));
 
 try {
-    sumar(10, 20);
+    console.log(sumar(10, 20));
 } catch(e) {
     console.log(e.message);
 }
 
 try {
-    restar(10, 20);
+    console.log(restar(10, 20));
 } catch(e) {
     console.log(e.message);
 }

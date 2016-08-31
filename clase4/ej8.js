@@ -3,19 +3,21 @@
         Los métodos también pueden recibir parametros ya que son una función.
 */
 
-// definimos un objeto perro que tiene un metodo ladrar
-var perro = {
-    entrenar: function(premio) {
-        if (premio) {
-            console.log('Da la pata');
-        } else {
-            console.log('Te mira');
-        }
+function entrenar(premio) {
+    if (premio) {
+        console.log('Da la pata');
+    } else {
+        console.log('Te mira');
     }
 }
 
+// definimos un objeto perro que tiene un metodo ladrar
+var perro = {
+    entrenar: entrenar
+}
+
 // Con premio tenemos un perro muy copado!
-perro.entrenar(true);
+perro.entrenar(10 > 2);
 
 // Sin premio no esperes que te preste mucha atención
-perro.entrenar(false);
+perro.entrenar(undefined);

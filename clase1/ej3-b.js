@@ -1,11 +1,11 @@
 /*
-    Uso opcional del punto y coma:
+  Uso opcional del punto y coma:
 
-    Javascript permite terminar las sentencias con o sin punto y coma:
-        sentencia
-        sentencia;
+  Javascript permite terminar las sentencias con o sin punto y coma:
+    sentencia
+    sentencia;
 
-    A lo largo del curso vamos a utilizar la forma con punto y coma.
+  A lo largo del curso vamos a utilizar la forma con punto y coma.
 */
 
 var nombre = 'Martín'

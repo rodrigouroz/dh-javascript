@@ -1,8 +1,8 @@
 /*
-    Null y Undefined:
+  Null y Undefined:
 
-    null: representa un valor nulo.
-    undefined: representa un valor indefinido.
+  null: representa un valor nulo.
+  undefined: representa un valor indefinido.
 */
 
 var valorNulo = null;

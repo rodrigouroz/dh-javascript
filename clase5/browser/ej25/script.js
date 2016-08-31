@@ -16,10 +16,9 @@ window.onload = function() {
     var prevenirIrAOle = document.querySelector('.no-ejecutar');
 
     irAGoogle.addEventListener('click', function(evento) {
-        var confirma = confirm('Seguro queres ir a google?');
-        if (!confirma) {
-            evento.preventDefault();
-        }
+
+        evento.preventDefault();
+        window.location = 'http://bing.com';
     });
 
     prevenirIrAOle.addEventListener('click', function(evento) {

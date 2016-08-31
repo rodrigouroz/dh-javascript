@@ -1,7 +1,7 @@
 /*
-    Boolean:
+  Boolean:
 
-    Representa un valor verdadero (true) o falso (false)
+  Representa un valor verdadero (true) o falso (false)
 */
 
 var leGustaProgramar = true;

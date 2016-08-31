@@ -1,16 +1,16 @@
 /*
-    Object:
+  Object:
 
-    El objeto es un tipo de dato que nos permite agrupar valores para
-    representar elementos de la vida. Se define con {}. Puede tener propiedades
-    y metodos. Las propiedades describen al objeto y los métodos le dan
-    funcionalidad. Las propiedades soportan cualquier tipo de dato.
+  El objeto es un tipo de dato que nos permite agrupar valores para
+  representar elementos de la vida. Se define con {}. Puede tener propiedades
+  y metodos. Las propiedades describen al objeto y los métodos le dan
+  funcionalidad. Las propiedades soportan cualquier tipo de dato.
 
-    Podemos acceder a las propiedades de un objeto de la siguiente forma:
-        objeto.propiedad
+  Podemos acceder a las propiedades de un objeto de la siguiente forma:
+    objeto.propiedad
 
-    De forma similar podemos acceder a un método utilizando () al final.
-        objeto.metodo()
+  De forma similar podemos acceder a un método utilizando () al final.
+    objeto.metodo()
 */
 
 // el objeto alumno tiene como propiedades: edad, nombre, colegio.

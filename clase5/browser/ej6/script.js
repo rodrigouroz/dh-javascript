@@ -29,8 +29,6 @@ window.onload = function() {
     console.log(parrafo);
 
     var tabla = document.getElementsByTagName('table');
+    console.log(tabla);
 
-    if (tabla) {
-        console.log('no hay tablas en este documento')
-    }
 }

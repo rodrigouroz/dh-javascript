@@ -19,12 +19,14 @@
 var retraso = 5000;
 
 // Función que se va a ejecutar dentro del tiempo que nosotros establecemos
-function saludar() {
-    console.log('Hola me ejecuté después de: ' + (retraso / 1000)  + ' segundos');
+function chau(nombre) {
+    if (!confirm('¿Todavia estas aca ' + nombre + '?')) {
+      window.location = 'http://google.com';
+    }
 }
 
 // Mensaje copado para esperar la 'mágia!'
 console.log('Esperemos unos segundos!!');
 
 // Guardamos el id del timeout por si en algún momento queremos / necesitamos borrar la ejecucción de este tiemeout.
-var idDelTimeout = window.setTimeout(saludar, retraso);
+var idDelTimeout = window.setTimeout(chau, 3000, ['Rodrigo']);

@@ -21,7 +21,7 @@ function saludar() {
     if (contador < 5) {
         contador++;
     } else {
-        var mensaje = 'No fué Mágia, fueron: ' + contador + ' intervalos';
+        var mensaje = 'No fue Magia, fueron: ' + contador + ' intervalos';
         console.log(mensaje);
         window.clearInterval(idDelIntervalo);
     }

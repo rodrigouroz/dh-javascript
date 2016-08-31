@@ -54,7 +54,7 @@ window.onload = function() {
     var nodosDelBODY = document.childNodes[1].childNodes[2].childNodes;
     console.log('Hijos del BODY: ', nodosDelBODY);
 
-    // Al identar el código, el browser parsea el espacio en blaco como un nodo de texto vacio
+    // Al identar el código, el browser parsea el espacio en blanco como un nodo de texto vacio
     var nodoTextoEnBlanco = document.childNodes[1].childNodes[2].childNodes[0];
     console.log('Nodo de texto vacio por cómo está identado el código: ', nodoTextoEnBlanco);
 

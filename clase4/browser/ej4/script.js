@@ -9,7 +9,15 @@
             var respuesta = window.prompt(mensaje);
 */
 
-var nombre = prompt('Escribe tu nombre');
+var nombre;
+
+try {
+  nombre = dameTuNombre();
+} catch (error) {
+  console.log('Estoy aca');
+  nombre = prompt('Dame tu nombre ahora!');
+}
+
 console.log(nombre);
 
 var apellido = window.prompt('Escribe tu apellido');

@@ -1,9 +1,9 @@
 /*
-    Array:
+  Array:
 
-    Es una lista de cero o más elementos separados por comas. Su longitud se
-    define por la cantidad de elementos que tiene. Un array soporta cualquier
-    tipo de dato como elemento.
+  Es una lista de cero o más elementos separados por comas. Su longitud se
+  define por la cantidad de elementos que tiene. Un array soporta cualquier
+  tipo de dato como elemento.
 */
 
 // Lista vacía, no tiene elementos.

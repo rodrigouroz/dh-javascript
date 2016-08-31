@@ -57,7 +57,7 @@ form input[type='button'] {
 
 form select {
     font-size: 16px;
-    width: 200px;
+    width: 400px;
     height: 40px;
 }
 
@@ -90,4 +90,8 @@ form textarea {
     color: #18780e;
     margin-top: 20px;
     display: none;
+}
+
+li {
+  height: 30px;
 }

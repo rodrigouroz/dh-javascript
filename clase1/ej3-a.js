@@ -1,9 +1,9 @@
 /*
-    Javascript es un lenguaje Case Sensitive:
+  Javascript es un lenguaje Case Sensitive:
 
-    Esto significa que reconoce entre mayúsculas y minúsculas.
-    Es por esto que hay que tener cuidado a la hora de definir los nombres de
-    las variables.
+  Esto significa que reconoce entre mayúsculas y minúsculas.
+  Es por esto que hay que tener cuidado a la hora de definir los nombres de
+  las variables.
 */
 
 var nombre = 'Pedro';

@@ -18,10 +18,10 @@ window.onload = function() {
     // obtenemos un array con un elemento.
     console.log(elementosPorNombre);
 
-    // accdemos al primer elemento
+    // accedemos al primer elemento
     console.log(elementosPorNombre[0]);
 
-    // accdemos al primer elemento
+    // accedemos al primer elemento
     console.log(elementosPorNombre.item(0));
 
     var arrayVacio = document.getElementsByName('algun-elemento');

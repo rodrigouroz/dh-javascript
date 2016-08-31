@@ -12,7 +12,8 @@ var nuevaVentana = window.open('popup.html', '_blank', 'width=400,height=400');
 
 // le cambiamos el tamaño a la nueva ventana
 nuevaVentana.onload = function() {
-    nuevaVentana.resizeTo(800, 800);
+    //alert('me abri');
+    //nuevaVentana.resizeTo(800, 800);
 
     // Opener es una referencia a la pagina que abrió a la nueva ventana
     console.log(nuevaVentana.opener);

@@ -1,11 +1,11 @@
 /*
-    Caracteres especiales en strings:
-        \n 	Nueva Línea
-        \t 	Tabulador
-        \r 	Retorno de Línea
-        \' 	Apóstrofe o comilla sencilla
-        \" 	Comilla doble
-        \\ 	Carácter Backslash
+  Caracteres especiales en strings:
+    \n 	Nueva Línea
+    \t 	Tabulador
+    \r 	Retorno de Línea
+    \' 	Apóstrofe o comilla sencilla
+    \" 	Comilla doble
+    \\ 	Carácter Backslash
 */
 
 // Nueva línea (\n):

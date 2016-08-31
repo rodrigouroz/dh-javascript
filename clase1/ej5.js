@@ -1,8 +1,8 @@
 /*
-    Number:
+  Number:
 
-    Representa un valor numérico. Puede ser números positivos, negativos o con
-    punto flotante.
+  Representa un valor numérico. Puede ser números positivos, negativos o con
+  punto flotante.
 */
 
 var edad = 25;

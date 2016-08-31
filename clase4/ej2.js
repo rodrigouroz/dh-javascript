@@ -24,7 +24,7 @@ console.log('El perro es: ', perro.raza);
 console.log('El perro tiene las siguientes vacunas: ');
 
 perro.vacunas.forEach(function(nombreVacuna, index) {
-    console.log('  ' + index + '. ' + nombreVacuna);
+    console.log('  ' + (index+1) + '. ' + nombreVacuna);
 });
 
 if (perro.muerde) {
